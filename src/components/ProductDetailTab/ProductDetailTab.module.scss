@@ -1,0 +1,48 @@
+// styles/ProductDetailTab.module.scss
+
+.container {
+  padding: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.productStack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.detailsContainer {
+  flex: 1;
+}
+
+.description {
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.arrivalDate {
+  margin-top: 8px;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}

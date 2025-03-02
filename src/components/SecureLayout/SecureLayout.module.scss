@@ -1,0 +1,10 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 16px;
+}

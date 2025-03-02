@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 24px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+  width: 100%;
+  max-width: 320px;
+  margin: 32px auto;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.errorText {
+  color: red;
+  text-align: center;
+}
+
+.submitButton {
+  width: 100%;
+}
+
+.loadingSpinner {
+  size: 24px;
+  color: inherit;
+}

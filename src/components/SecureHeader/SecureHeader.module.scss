@@ -1,0 +1,42 @@
+.appBar {
+  position: sticky;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle {
+  color: white;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+}
+
+.userName,
+.userNameChars {
+  margin-right: 16px;
+  color: white;
+}
+
+.userNameChars {
+  display: none;
+}
+
+.logoutButton {
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .userName {
+    display: none; /* Hide on small screens */
+  }
+
+  .userNameChars {
+    display: block; /* Show on small screens */
+  }
+}

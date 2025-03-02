@@ -1,0 +1,29 @@
+// styles/ProductDetailCommentsTab.module.scss
+
+.container {
+  padding: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.commentInput {
+  margin-top: 8px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.addButton {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.loadingSpinner {
+  size: 24px;
+  color: inherit;
+}

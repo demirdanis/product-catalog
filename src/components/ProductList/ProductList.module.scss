@@ -1,0 +1,7 @@
+// styles/ProductList.module.scss
+
+.dataGrid {
+  & .MuiDataGrid-row {
+    cursor: pointer; // Satır üzerine gelindiğinde pointer cursor
+  }
+}

@@ -1,0 +1,23 @@
+// styles/ProductList.module.scss
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nameCell {
+  font-weight: bold;
+}
+
+.priceCell {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ratingCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
